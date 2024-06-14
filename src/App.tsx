@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Helmet} from "react-helmet";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
     const [move, setMove] = useState(false);
@@ -16,6 +17,7 @@ function App() {
                 <meta name={"description"}
                       content={"Quantos segundos você consegue ficar sem mover o seu mouse?"}/>
             </Helmet>
+            <Analytics/>
             <div
                 className={"flex justify-center items-center h-screen w-screen flex-col max-[1000px]:hidden select-none ".concat(start ? move ? "bg-red-200" : "bg-green-200" : "bg-teal-100")}
                 onMouseMove={() => {
