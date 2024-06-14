@@ -45,7 +45,7 @@ function App() {
                     <h1 className={"bg-teal-50 h-10 p-4 flex justify-center items-center font-bold text-gray-600 rounded-lg hover:bg-gray-50 cursor-pointer m-2 select-none active:bg-gray-100"}
                         onClick={
                             () => {
-                                navigator.clipboard.writeText(`Deixei meu mouse parado por ${time / 1000} segundos\n\nVenha NÃO MOVER o seu mouse também:\nnumove.vercel.app`);
+                                navigator.clipboard.writeText(`Deixei o meu mouse parado por ${time / 1000} segundos\n\nVenha NÃO mover o seu mouse também:\nnumove.vercel.app`);
                             }
                         }>Compartilhe</h1> : null}
             </div>
