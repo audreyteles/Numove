@@ -20,15 +20,15 @@ function App() {
                 <meta property="og:description" content="Quantos segundos você consegue ficar sem mover o seu mouse?" />
                 <meta property="og:image" content="https://numove.vercel.app/"/>
                 
-                <meta name="twitter:card" content="summary_large_image">
-                <meta name="twitter:title" content="Numove">
-                <meta name="twitter:description" content="Quantos segundos você consegue ficar sem mover o seu mouse?">
-                <meta name="twitter:image:alt" content="Tela com um botão de 'comece'">
-                <meta name="twitter:image:type" content="image/png">
-                <meta name="twitter:image" content="https://numove.vercel.app/">
-                <meta name="twitter:image:width" content="1200">
-                <meta name="twitter:image:height" content="630">
-                <meta name="next-size-adjust">
+                <meta property="twitter:card" content="summary_large_image">
+                <meta property="twitter:title" content="Numove">
+                <meta property="twitter:description" content="Quantos segundos você consegue ficar sem mover o seu mouse?">
+                <meta property="twitter:image:alt" content="Tela com um botão de comece">
+                <meta property="twitter:image:type" content="image/png">
+                <meta property="twitter:image" content="https://numove.vercel.app/">
+                <meta property="twitter:image:width" content="1200">
+                <meta property="twitter:image:height" content="630">
+                <meta property="next-size-adjust">
             </Helmet>
             <Analytics/>
             <div
