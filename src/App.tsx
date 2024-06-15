@@ -16,6 +16,9 @@ function App() {
                 <link rel="icon" type="image/x-icon" href="../public/favicon.ico"/>
                 <meta name={"description"}
                       content={"Quantos segundos você consegue ficar sem mover o seu mouse?"}/>
+                <meta property="og:title" content="Numove" />
+                <meta property="og:description" content="Quantos segundos você consegue ficar sem mover o seu mouse?" />
+                <meta property="og:image" content="https://numove.vercel.app/" />
             </Helmet>
             <Analytics/>
             <div
